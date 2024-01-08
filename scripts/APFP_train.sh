@@ -1,0 +1,15 @@
+#python APFP_export_distribution.py --gpu_ids 1  --decay_rate 0  --efficient_pruning --network_arch resnet34 --lr 0.01 --knn 2 --prune_rate 0.50 --max_lrate 0.50   --Epochs 1 --save_epoch 1 --name . --train_all --batchsize 32  --data_dir ./datasets/Market1501/pytorch/
+
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet18 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/market/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/Market/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet34 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/market/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/Market/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet50 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/market/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/Market/pytorch/
+
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet18 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/duke/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/DukeMTMC-reID/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet34 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/duke/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/DukeMTMC-reID/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet50 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/duke/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/DukeMTMC-reID/pytorch/
+
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet18 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/msmt/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/MSMT17_V1/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet34 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/msmt/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/MSMT17_V1/pytorch/
+python APFP_train.py --gpu_ids 0  --decay_rate 3e-1  --efficient_pruning --network_arch resnet50 --lr 0.01 --knn 2 --prune_rate 0.90 --max_lrate 0.95   --Epochs 70 --save_epoch 60 --name prune_APFP/knn2/msmt/0.90/no_1x1_3e-1_70_0.01_m95_fast --train_all --batchsize 32  --data_dir ./datasets/MSMT17_V1/pytorch/
+
+

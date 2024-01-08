@@ -1,0 +1,3 @@
+python FPGM_train.py --gpu_ids 0  --network_arch resnet18 --lr 0.01 --prune_rate 0.90 --Epochs 70 --save_epoch 60 --name prune_FPGM/market/0.90 --train_all --batchsize 32  --data_dir ./datasets/Market/pytorch/
+python FPGM_train.py --gpu_ids 0  --network_arch resnet18 --lr 0.01 --prune_rate 0.90 --Epochs 70 --save_epoch 60 --name prune_FPGM/duke/0.90 --train_all --batchsize 32  --data_dir ./datasets/DukeMTMC-reID/pytorch/
+python FPGM_train.py --gpu_ids 0  --network_arch resnet18 --lr 0.01 --prune_rate 0.90 --Epochs 70 --save_epoch 60 --name prune_FPGM/msmt/0.90 --train_all --batchsize 32  --data_dir ./datasets/MSMT17_V1/pytorch/
