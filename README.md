@@ -128,7 +128,7 @@ The `resnet50_prune_rate_0.90_on_msmt17_ Rank@1_0.254053_Rank@5_0.396689_Rank@10
 
 ## Citation
 Please cite this paper if it helps your research:
-```
+```bib
 @article{wang2021soft,
   title={Soft person reidentification network pruning via blockwise adjacent filter decaying},
   author={Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi},
@@ -140,7 +140,7 @@ Please cite this paper if it helps your research:
   publisher={IEEE}
 }
 ```
-```
+```bib
 @article{wang2023progressive,
   title={Progressive local filter pruning for image retrieval acceleration},
   author={Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi},
